@@ -92,3 +92,27 @@ it("Object assigment", () =>{
     - [tästä](https://www.youtube.com/watch?v=ajiAl5UNzBU)
 
 ja myöhemmin [tästä](https://www.youtube.com/playlist?list=PLmZPx_9ZF_sB7aBEa4UV8qX3Oi3tBElpN)
+
+
+
+## Async testing
+
+- Installing axios `npm install axios`
+- We are writing test such **asynch** method
+
+```
+const axios = require('axios');
+
+const fetchData = async (id) => {
+	const results = await axios.get(
+		`https://jsonplaceholder.typicode.com/todos/${id}`
+	);
+    console.log(results);
+	return results.data;
+};
+
+fetchData(1);
+
+module.exports = fetchData;
+```
+
