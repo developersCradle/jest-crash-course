@@ -19,10 +19,10 @@ Jest Crash Course - Learn How to Test your JavaScript Application by Laith Acade
 
 ### Video Progress
 
-- [x] [Section 1](#section-1---matcher-methodsMethods) - Matcher Methods
+- [x] [Section 1](#section-1---matcher-methods) - Matcher Methods
 - [x] [Section 2](#section-2----async-functions) - Async Functions
-- [x] [Section 3](#) - Setting Up & Tearing Down Test
-- [x] [Section 4](#) - Mocks
+- [x] [Section 3](#section-3---section-setup--) - Setting Up & Tearing Down Test
+- [x] [Section 4](#section-4---mocks) - Mocks
 
 
 
