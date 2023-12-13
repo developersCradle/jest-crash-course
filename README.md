@@ -19,8 +19,8 @@ Jest Crash Course - Learn How to Test your JavaScript Application by Laith Acade
 
 ### Video Progress
 
-- [x] [Section 1](Section-1-Matcher-Methods) - Matcher Methods
-- [x] [Section 2](#) - Async Functions
+- [x] [Section 1](#section-1---matcher-methodsMethods) - Matcher Methods
+- [x] [Section 2](#section-2----async-functions) - Async Functions
 - [x] [Section 3](#) - Setting Up & Tearing Down Test
 - [x] [Section 4](#) - Mocks
 
@@ -171,7 +171,7 @@ it('should return correct todo', async () => {
 });
 ```
 
-### Section Setup & Teardown 
+### Section 3 - Section Setup & Teardown 
 
 
 - Testing arrays
@@ -217,7 +217,7 @@ describe('animals array', () => {
 - `beforeEach()` Inside test block is affecting test execution of the group
 
 
-### Mocks
+### Section 4 - Mocks
 
 
 - Mocks come handy when using such methods where methods output could change
